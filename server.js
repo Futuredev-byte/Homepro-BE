@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import morgan from "morgan";
-import AuthRouter from "./Src/routes/auth.js"
+import AuthRouter from "./src/routes/auth.js"
 import { globalMiddleware } from "./src/middlewares/auth.js";
 import { connectDb } from "./src/config/db config.js";
 
